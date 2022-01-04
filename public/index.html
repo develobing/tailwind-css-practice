@@ -47,13 +47,15 @@
     </nav>
 
     <!-- Site banner -->
-    <main class="mt-10 px-4 md:mt-16">
+    <main
+      class="mt-10 px-4 md:mt-16 mx-auto max-w-7xl lg:mt-20 lg:px-8 lx:mt-28"
+    >
       <div class="sm:text-center lg:text-left">
         <h1
           class="tracking-tight font-extrabold text-4xl sm:text-5xl md:text-6xl"
         >
-          <span class="block">Premium Properties</span>
-          <span class="block text-green-500">Non-premium prices</span>
+          <span class="block xl:inline">Premium Properties</span>
+          <span class="block text-green-500 xl:inline">Non-premium prices</span>
         </h1>
 
         <p
@@ -509,5 +511,78 @@
         </div>
       </form>
     </div>
+
+    <!-- Footer -->
+    <footer class="pt-40 px-4 divide-y bg-coolGray-100 text-coolGray-800">
+      <div
+        class="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0"
+      >
+        <div class="lg:w-1/3">
+          <a href="" class="flex justify-center">
+            <div class="flex w-12 h-12">
+              <img src="images/house.png" alt="" class="h-8 w-8 mr-2" />
+            </div>
+
+            <span class="font-semibold text-gray-500 text-2xl">
+              Prime Properties
+            </span>
+          </a>
+        </div>
+
+        <div
+          class="grid grid-cols-2 gap-x-3 gap-y-8 text-sm sm:grid-cols-4 lg:w-2/3"
+        >
+          <div class="space-y-3">
+            <h3 class="text-green-500 uppercase tracking-wide">Product</h3>
+
+            <ul class="space-y-5">
+              <li><a href="">Features</a></li>
+              <li><a href="">Integrations</a></li>
+              <li><a href="">Pricing</a></li>
+              <li><a href="">FAQ</a></li>
+            </ul>
+          </div>
+
+          <div class="space-y-3">
+            <h3 class="text-green-500 uppercase tracking-wide">Company</h3>
+
+            <ul class="space-y-5">
+              <li><a href="">Features</a></li>
+              <li><a href="">Integrations</a></li>
+            </ul>
+          </div>
+
+          <div class="space-y-3">
+            <h3 class="text-green-500 uppercase tracking-wide">Developers</h3>
+
+            <ul class="space-y-5">
+              <li><a href="">Pricing</a></li>
+              <li><a href="">FAQ</a></li>
+            </ul>
+          </div>
+
+          <div class="space-y-3">
+            <h3 class="text-green-500 uppercase tracking-wide">Social Media</h3>
+
+            <div class="flex justify-start space-x-3">
+              <a href="">
+                <img src="images/facebook.png" alt="" class="w-6 h-6" />
+              </a>
+              <a href="">
+                <img src="images/instagram.png" alt="" class="w-6 h-6" />
+              </a>
+              <a href="">
+                <img src="images/github.png" alt="" class="w-6 h-6" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="py-6 text-sm text-center text-green-500">
+        © 1968 Company Co. All rights reserved.
+      </div>
+    </footer>
+    <!-- Footer -->
   </body>
 </html>
